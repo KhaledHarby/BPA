@@ -1,0 +1,417 @@
+{
+  "format": 1,
+  "restore": {
+    "/workspace/tests/SaaSZero.IntegrationTests/SaaSZero.IntegrationTests.csproj": {}
+  },
+  "projects": {
+    "/workspace/src/API/SaaSZero.API/SaaSZero.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/workspace/src/API/SaaSZero.API/SaaSZero.API.csproj",
+        "projectName": "SaaSZero.API",
+        "projectPath": "/workspace/src/API/SaaSZero.API/SaaSZero.API.csproj",
+        "packagesPath": "/home/ubuntu/.nuget/packages/",
+        "outputPath": "/workspace/src/API/SaaSZero.API/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/ubuntu/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/workspace/src/Core/Application/SaaSZero.Application/SaaSZero.Application.csproj": {
+                "projectPath": "/workspace/src/Core/Application/SaaSZero.Application/SaaSZero.Application.csproj"
+              },
+              "/workspace/src/Infrastructure/SaaSZero.Infrastructure/SaaSZero.Infrastructure.csproj": {
+                "projectPath": "/workspace/src/Infrastructure/SaaSZero.Infrastructure/SaaSZero.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[11.3.1, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[8.0.19, )"
+            },
+            "Quartz": {
+              "target": "Package",
+              "version": "[3.15.0, )"
+            },
+            "Quartz.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[3.15.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/home/ubuntu/.dotnet/sdk/8.0.413/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/workspace/src/Core/Application/SaaSZero.Application/SaaSZero.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/workspace/src/Core/Application/SaaSZero.Application/SaaSZero.Application.csproj",
+        "projectName": "SaaSZero.Application",
+        "projectPath": "/workspace/src/Core/Application/SaaSZero.Application/SaaSZero.Application.csproj",
+        "packagesPath": "/home/ubuntu/.nuget/packages/",
+        "outputPath": "/workspace/src/Core/Application/SaaSZero.Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/ubuntu/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/workspace/src/Core/Domain/SaaSZero.Domain/SaaSZero.Domain.csproj": {
+                "projectPath": "/workspace/src/Core/Domain/SaaSZero.Domain/SaaSZero.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.11.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/home/ubuntu/.dotnet/sdk/8.0.413/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/workspace/src/Core/Domain/SaaSZero.Domain/SaaSZero.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/workspace/src/Core/Domain/SaaSZero.Domain/SaaSZero.Domain.csproj",
+        "projectName": "SaaSZero.Domain",
+        "projectPath": "/workspace/src/Core/Domain/SaaSZero.Domain/SaaSZero.Domain.csproj",
+        "packagesPath": "/home/ubuntu/.nuget/packages/",
+        "outputPath": "/workspace/src/Core/Domain/SaaSZero.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/ubuntu/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/home/ubuntu/.dotnet/sdk/8.0.413/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/workspace/src/Infrastructure/SaaSZero.Infrastructure/SaaSZero.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/workspace/src/Infrastructure/SaaSZero.Infrastructure/SaaSZero.Infrastructure.csproj",
+        "projectName": "SaaSZero.Infrastructure",
+        "projectPath": "/workspace/src/Infrastructure/SaaSZero.Infrastructure/SaaSZero.Infrastructure.csproj",
+        "packagesPath": "/home/ubuntu/.nuget/packages/",
+        "outputPath": "/workspace/src/Infrastructure/SaaSZero.Infrastructure/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/ubuntu/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/workspace/src/Core/Application/SaaSZero.Application/SaaSZero.Application.csproj": {
+                "projectPath": "/workspace/src/Core/Application/SaaSZero.Application/SaaSZero.Application.csproj"
+              },
+              "/workspace/src/Core/Domain/SaaSZero.Domain/SaaSZero.Domain.csproj": {
+                "projectPath": "/workspace/src/Core/Domain/SaaSZero.Domain/SaaSZero.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Quartz": {
+              "target": "Package",
+              "version": "[3.15.0, )"
+            },
+            "Quartz.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[3.15.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/home/ubuntu/.dotnet/sdk/8.0.413/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/workspace/tests/SaaSZero.IntegrationTests/SaaSZero.IntegrationTests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/workspace/tests/SaaSZero.IntegrationTests/SaaSZero.IntegrationTests.csproj",
+        "projectName": "SaaSZero.IntegrationTests",
+        "projectPath": "/workspace/tests/SaaSZero.IntegrationTests/SaaSZero.IntegrationTests.csproj",
+        "packagesPath": "/home/ubuntu/.nuget/packages/",
+        "outputPath": "/workspace/tests/SaaSZero.IntegrationTests/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/ubuntu/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/workspace/src/API/SaaSZero.API/SaaSZero.API.csproj": {
+                "projectPath": "/workspace/src/API/SaaSZero.API/SaaSZero.API.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.8.0, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.5.3, )"
+            },
+            "xunit.runner.visualstudio": {
+              "target": "Package",
+              "version": "[2.5.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/home/ubuntu/.dotnet/sdk/8.0.413/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

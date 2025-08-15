@@ -1,0 +1,12 @@
+/workspace/src/Core/Domain/SaaSZero.Domain/bin/Debug/net8.0/SaaSZero.Domain.deps.json
+/workspace/src/Core/Domain/SaaSZero.Domain/bin/Debug/net8.0/SaaSZero.Domain.dll
+/workspace/src/Core/Domain/SaaSZero.Domain/bin/Debug/net8.0/SaaSZero.Domain.pdb
+/workspace/src/Core/Domain/SaaSZero.Domain/obj/Debug/net8.0/SaaSZero.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/workspace/src/Core/Domain/SaaSZero.Domain/obj/Debug/net8.0/SaaSZero.Domain.AssemblyInfoInputs.cache
+/workspace/src/Core/Domain/SaaSZero.Domain/obj/Debug/net8.0/SaaSZero.Domain.AssemblyInfo.cs
+/workspace/src/Core/Domain/SaaSZero.Domain/obj/Debug/net8.0/SaaSZero.Domain.csproj.CoreCompileInputs.cache
+/workspace/src/Core/Domain/SaaSZero.Domain/obj/Debug/net8.0/SaaSZero.Domain.sourcelink.json
+/workspace/src/Core/Domain/SaaSZero.Domain/obj/Debug/net8.0/SaaSZero.Domain.dll
+/workspace/src/Core/Domain/SaaSZero.Domain/obj/Debug/net8.0/refint/SaaSZero.Domain.dll
+/workspace/src/Core/Domain/SaaSZero.Domain/obj/Debug/net8.0/SaaSZero.Domain.pdb
+/workspace/src/Core/Domain/SaaSZero.Domain/obj/Debug/net8.0/ref/SaaSZero.Domain.dll

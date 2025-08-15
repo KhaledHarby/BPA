@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "pG3AmfrWiVHa/jb0secWeOtjR0oiB/O5pL1NJxrAVDQ=",
+  "Source": "SaaSZero.API",
+  "BasePath": "_content/SaaSZero.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
