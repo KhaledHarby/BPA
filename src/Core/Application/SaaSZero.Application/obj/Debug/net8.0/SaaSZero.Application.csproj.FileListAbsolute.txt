@@ -1,0 +1,16 @@
+/workspace/src/Core/Application/SaaSZero.Application/bin/Debug/net8.0/SaaSZero.Application.deps.json
+/workspace/src/Core/Application/SaaSZero.Application/bin/Debug/net8.0/SaaSZero.Application.dll
+/workspace/src/Core/Application/SaaSZero.Application/bin/Debug/net8.0/SaaSZero.Application.pdb
+/workspace/src/Core/Application/SaaSZero.Application/bin/Debug/net8.0/SaaSZero.Domain.dll
+/workspace/src/Core/Application/SaaSZero.Application/bin/Debug/net8.0/SaaSZero.Domain.pdb
+/workspace/src/Core/Application/SaaSZero.Application/obj/Debug/net8.0/SaaSZero.Application.csproj.AssemblyReference.cache
+/workspace/src/Core/Application/SaaSZero.Application/obj/Debug/net8.0/SaaSZero.Application.GeneratedMSBuildEditorConfig.editorconfig
+/workspace/src/Core/Application/SaaSZero.Application/obj/Debug/net8.0/SaaSZero.Application.AssemblyInfoInputs.cache
+/workspace/src/Core/Application/SaaSZero.Application/obj/Debug/net8.0/SaaSZero.Application.AssemblyInfo.cs
+/workspace/src/Core/Application/SaaSZero.Application/obj/Debug/net8.0/SaaSZero.Application.csproj.CoreCompileInputs.cache
+/workspace/src/Core/Application/SaaSZero.Application/obj/Debug/net8.0/SaaSZero.Application.sourcelink.json
+/workspace/src/Core/Application/SaaSZero.Application/obj/Debug/net8.0/SaaSZero.7AAD87C9.Up2Date
+/workspace/src/Core/Application/SaaSZero.Application/obj/Debug/net8.0/SaaSZero.Application.dll
+/workspace/src/Core/Application/SaaSZero.Application/obj/Debug/net8.0/refint/SaaSZero.Application.dll
+/workspace/src/Core/Application/SaaSZero.Application/obj/Debug/net8.0/SaaSZero.Application.pdb
+/workspace/src/Core/Application/SaaSZero.Application/obj/Debug/net8.0/ref/SaaSZero.Application.dll
